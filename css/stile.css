@@ -1,0 +1,162 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*aftre {
+  -moz-box-sizing: border-box;
+  webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  front-size: 100%;
+  line-height: 1;
+  front-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+  font-famili: inherit;
+}
+
+input:-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button: :-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-emphasis: none;
+}
+ul li {
+  list-style-type: none;
+}
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+body {
+  font-family: arial;
+}
+/* .fullcontent {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+.header {
+  text-align: center;
+  margin-top: 100px;
+  font-weight: 600;
+  color: blueviolet;
+  transform-style: preserve-3d;
+} */
+
+.text3d-wrap-3 {
+  margin: 0;
+  padding: 0;
+  background-color: #9e19aa;
+  position: relative;
+  width: 100%;
+  height: 300px;
+  text-align: center;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 100px;
+}
+.text3d-3 {
+  margin-top: -12px;
+  align-self: center;
+  transform: perspective(300px) rotateX(15deg) scaleY(0.8);
+  transition: all 0.5s;
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 90px;
+  letter-spacing: 3px;
+  color: #dfd220;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.9), 0 10px 0 #bfe2ff;
+}
+.text3d-wrap-3:hover .text3d-3 {
+  transform: perspective(1000px) rotateX(15deg) scale(1.07);
+  text-shadow: 0 0 10px black, 0 2px 0 #bfe2ff;
+}
+@media (max-width: 767px) {
+  .text3d-3 {
+    font-size: 60px;
+  }
+}
+.content {
+  width: 1920px;
+  height: 700px;
+  background-color: #9e19aa;
+  display: flex;
+  justify-content: space-around;
+}
+
+.img1 {
+  height: 500px;
+  width: 600px;
+}
+.img2 {
+  height: 500px;
+  width: 600px;
+}
+.text1 {
+  padding-left: 100px;
+  padding-bottom: 30px;
+  font-weight: 500;
+  font-size: 22px;
+  color: aliceblue;
+  font-family: "Dancing Script", cursive;
+}
+.text2 {
+  padding-left: 100px;
+  padding-bottom: 30px;
+  font-weight: 500;
+  font-size: 21px;
+  color: aliceblue;
+  font-family: "Dancing Script", cursive;
+}
+.comlements {
+  background-color: #9e19aa;
+  text-align: center;
+  color: azure;
+}
