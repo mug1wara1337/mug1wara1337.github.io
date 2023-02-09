@@ -1,0 +1,1 @@
+# mug1wara1337.github.io
